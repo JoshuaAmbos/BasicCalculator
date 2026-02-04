@@ -1,0 +1,28 @@
+:root {
+  --primary-color: rgb(51, 56, 56);
+}
+
+#undo-btn {
+  background-color: var(--primary-color);
+  border: solid;
+  border-width: 1px;
+  border-color: black;
+}
+
+#output-display,
+#input-display {
+  background-color: var(--primary-color);
+}
+
+.btn:not(.btn-danger, #undo-btn, .btn-primary) {
+  background-color: rgb(51, 56, 56);
+  border: solid;
+  border-width: 1px;
+  border-color: black;
+  color: white;
+  width: 100%;
+}
+
+.btn:not(.btn-danger, .btn-primary):hover {
+  opacity: 85%;
+}
