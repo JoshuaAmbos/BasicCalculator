@@ -3,7 +3,7 @@
 The most basic but fully responsive, dark-themed calculator built with a focus on clean UI and efficient grid layouts.
 
 ## Live Demo
-[Check it out on Netlify]https://ambosbasiccalculator.netlify.app/
+[Check it out on Netlify] https://ambosbasiccalculator.netlify.app/
 
 ## Features
 * **Responsive Keypad**: Built using Bootstrap's grid system.
