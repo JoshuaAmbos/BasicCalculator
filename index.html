@@ -1,0 +1,169 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculator</title>
+
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="static/css/bootstrap.min.css" />
+  </head>
+  <body>
+    <div class="calculator vw-100">
+      <div
+        class="container d-flex justify-content-center align-items-center vh-100"
+      >
+        <div class="row">
+          <div class="col">
+            <!--body-->
+            <div
+              class="card text-light bg-dark shadow-sm mx-auto my-5"
+              style="width: 360px"
+            >
+              <!--header-->
+              <div class="card-header border-bottom border-secondary p-2">
+                <div
+                  class="d-flex justify-content-between align-items-baseline"
+                >
+                  <button
+                    type="button"
+                    class="btn btn-sm px-3 text-light"
+                    id="undo-btn"
+                  >
+                    Undo
+                  </button>
+                  <h6 class="fw-bold">Calculator</h6>
+                  <div style="width: 60px"></div>
+                </div>
+              </div>
+
+              <!--output display-->
+              <div>
+                <input
+                  type="text"
+                  readonly
+                  disabled
+                  class="w-100"
+                  style="height: 110px"
+                  id="output-display"
+                />
+              </div>
+
+              <!--input display-->
+              <div>
+                <input
+                  type="text"
+                  id="input-display"
+                  disabled
+                  readonly
+                  class="w-100"
+                  style="height: 60px"
+                />
+              </div>
+
+              <div class="buttons">
+                <div class="row row-cols-5 g-2 mx-2 mt-2 pb-3">
+                  <div class="col mb-1">
+                    <button
+                      type="button"
+                      class="btn btn-danger shadow-sm w-100"
+                      style="
+                        padding: 8px;
+                        border: solid;
+                        border-color: darkred;
+                        border-width: 1px;
+                      "
+                    >
+                      <img
+                        src="assets/icons/delete-left-solid-full.svg"
+                        alt="delete_icon"
+                        style="width: 20px"
+                      />
+                    </button>
+                  </div>
+                  <div class="col">
+                    <button type="button" class="btn" value="(">(</button>
+                  </div>
+                  <div class="col">
+                    <button type="button" class="btn" value=")">)</button>
+                  </div>
+                  <div class="col">
+                    <button type="button" class="btn" value="?">mod</button>
+                  </div>
+                  <div class="col">
+                    <button type="button" class="btn" value="π">π</button>
+                  </div>
+                  <div class="col">
+                    <button type="button" class="btn" value="7">7</button>
+                  </div>
+                  <div class="col">
+                    <button type="button" class="btn" value="8">8</button>
+                  </div>
+                  <div class="col">
+                    <button type="button" class="btn" value="9">9</button>
+                  </div>
+                  <div class="col">
+                    <button type="button" class="btn" value="/">÷</button>
+                  </div>
+                  <div class="col">
+                    <button type="button" class="btn" value="√">√</button>
+                  </div>
+                  <div class="col">
+                    <button type="button" class="btn" value="4">4</button>
+                  </div>
+                  <div class="col">
+                    <button type="button" class="btn" value="5">5</button>
+                  </div>
+                  <div class="col">
+                    <button type="button" class="btn" value="6">6</button>
+                  </div>
+                  <div class="col">
+                    <button type="button" class="btn" value="*">×</button>
+                  </div>
+                  <div class="col">
+                    <button type="button" class="btn" value="^2">x²</button>
+                  </div>
+                  <div class="col">
+                    <button type="button" class="btn" value="1">1</button>
+                  </div>
+                  <div class="col">
+                    <button type="button" class="btn" value="2">2</button>
+                  </div>
+                  <div class="col">
+                    <button type="button" class="btn" value="3">3</button>
+                  </div>
+                  <div class="col">
+                    <button type="button" class="btn" value="-">-</button>
+                  </div>
+                  <div class="col">
+                    <button
+                      type="button"
+                      class="btn btn-primary w-100"
+                      style="height: 220%"
+                      value="="
+                    >
+                      =
+                    </button>
+                  </div>
+                  <div class="col">
+                    <button type="button" class="btn" value="0">0</button>
+                  </div>
+                  <div class="col">
+                    <button type="button" class="btn" value=".">.</button>
+                  </div>
+                  <div class="col">
+                    <button type="button" class="btn" value="%">%</button>
+                  </div>
+                  <div class="col">
+                    <button type="button" class="btn" value="+">+</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="static/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
