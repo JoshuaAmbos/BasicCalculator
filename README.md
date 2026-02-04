@@ -1,21 +1,21 @@
-#Modern Web Calculator
+## Modern Web Calculator
 
 The most basic but fully responsive, dark-themed calculator built with a focus on clean UI and efficient grid layouts.
 
-##Live Demo
+## Live Demo
 [Check it out on Netlify] https://ambosbasiccalculator.netlify.app/
 
-##Features
+## Features
 * **Responsive Keypad**: Built using Bootstrap's grid system.
 * **Math Operations**: Supports addition, subtraction, multiplication, division, modulo (`mod`), and square root (`√`).
 * **Clean UI**: Custom CSS styling with a dark mode aesthetic and rounded buttons.
 
-##Built With
+## Built With
 * **HTML5 & CSS3**: For the structure and custom styling.
 * **Bootstrap 5**: For the grid layout and responsive design.
 * **JavaScript**: For the calculation logic and DOM manipulation.
 
-##Project Structure
+## Project Structure
 * `/static`: Contains Bootstrap CSS and JS files.
 * `/assets`: Icons and images.
 * `index.html`: Main entry point.
