@@ -6,12 +6,6 @@ The most basic but fully responsive, dark-themed calculator built with a focus o
 
 [Check it out on Netlify] https://ambosbasiccalculator.netlify.app/
 
-## Features
-
-- **Responsive Keypad**: Built using Bootstrap's grid system.
-- **Math Operations**: Supports addition, subtraction, multiplication, division, modulo (`mod`), and square root (`√`).
-- **Clean UI**: Custom CSS styling with a dark mode aesthetic and rounded buttons.
-
 ## Built With
 
 - **HTML5 & CSS3**: For the structure and custom styling.
