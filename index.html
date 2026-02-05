@@ -39,14 +39,7 @@
 
               <!--output display-->
               <div>
-                <input
-                  type="text"
-                  readonly
-                  disabled
-                  class="w-100"
-                  style="height: 110px"
-                  id="output-display"
-                />
+                <input type="text" readonly class="w-100" id="output-display" />
               </div>
 
               <!--input display-->
@@ -54,7 +47,6 @@
                 <input
                   type="text"
                   id="input-display"
-                  disabled
                   readonly
                   class="w-100"
                   style="height: 60px"
@@ -63,16 +55,11 @@
 
               <div class="buttons">
                 <div class="row row-cols-5 g-2 mx-2 mt-2 pb-3">
-                  <div class="col mb-1">
+                  <div class="col">
                     <button
                       type="button"
-                      class="btn btn-danger shadow-sm w-100"
-                      style="
-                        padding: 8px;
-                        border: solid;
-                        border-color: darkred;
-                        border-width: 1px;
-                      "
+                      class="btn btn-danger w-100"
+                      id="clear-btn"
                     >
                       <img
                         src="assets/icons/delete-left-solid-full.svg"
@@ -88,19 +75,27 @@
                     <button type="button" class="btn" value=")">)</button>
                   </div>
                   <div class="col">
-                    <button type="button" class="btn" value="?">mod</button>
+                    <button type="button" class="btn" value="%">mod</button>
                   </div>
                   <div class="col">
-                    <button type="button" class="btn" value="π">π</button>
+                    <button type="button" class="btn" value="*Math.PI">
+                      π
+                    </button>
                   </div>
                   <div class="col">
-                    <button type="button" class="btn" value="7">7</button>
+                    <button type="button" class="btn fw-bold" value="7">
+                      7
+                    </button>
                   </div>
                   <div class="col">
-                    <button type="button" class="btn" value="8">8</button>
+                    <button type="button" class="btn fw-bold" value="8">
+                      8
+                    </button>
                   </div>
                   <div class="col">
-                    <button type="button" class="btn" value="9">9</button>
+                    <button type="button" class="btn fw-bold" value="9">
+                      9
+                    </button>
                   </div>
                   <div class="col">
                     <button type="button" class="btn" value="/">÷</button>
@@ -109,13 +104,19 @@
                     <button type="button" class="btn" value="√">√</button>
                   </div>
                   <div class="col">
-                    <button type="button" class="btn" value="4">4</button>
+                    <button type="button" class="btn fw-bold" value="4">
+                      4
+                    </button>
                   </div>
                   <div class="col">
-                    <button type="button" class="btn" value="5">5</button>
+                    <button type="button" class="btn fw-bold" value="5">
+                      5
+                    </button>
                   </div>
                   <div class="col">
-                    <button type="button" class="btn" value="6">6</button>
+                    <button type="button" class="btn fw-bold" value="6">
+                      6
+                    </button>
                   </div>
                   <div class="col">
                     <button type="button" class="btn" value="*">×</button>
@@ -124,13 +125,19 @@
                     <button type="button" class="btn" value="^2">x²</button>
                   </div>
                   <div class="col">
-                    <button type="button" class="btn" value="1">1</button>
+                    <button type="button" class="btn fw-bold" value="1">
+                      1
+                    </button>
                   </div>
                   <div class="col">
-                    <button type="button" class="btn" value="2">2</button>
+                    <button type="button" class="btn fw-bold" value="2">
+                      2
+                    </button>
                   </div>
                   <div class="col">
-                    <button type="button" class="btn" value="3">3</button>
+                    <button type="button" class="btn fw-bold" value="3">
+                      3
+                    </button>
                   </div>
                   <div class="col">
                     <button type="button" class="btn" value="-">-</button>
@@ -146,13 +153,15 @@
                     </button>
                   </div>
                   <div class="col">
-                    <button type="button" class="btn" value="0">0</button>
+                    <button type="button" class="btn fw-bold" value="0">
+                      0
+                    </button>
                   </div>
                   <div class="col">
                     <button type="button" class="btn" value=".">.</button>
                   </div>
                   <div class="col">
-                    <button type="button" class="btn" value="%">%</button>
+                    <button type="button" class="btn" value="/100">%</button>
                   </div>
                   <div class="col">
                     <button type="button" class="btn" value="+">+</button>
@@ -164,6 +173,7 @@
         </div>
       </div>
     </div>
+    <script src="index.js"></script>
     <script src="static/js/bootstrap.bundle.min.js"></script>
   </body>
 </html>

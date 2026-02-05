@@ -2,6 +2,12 @@
   --primary-color: rgb(51, 56, 56);
 }
 
+#output-display,
+#input-display {
+  pointer-events: none;
+  user-select: none;
+}
+
 #undo-btn {
   background-color: var(--primary-color);
   border: solid;
@@ -12,6 +18,35 @@
 #output-display,
 #input-display {
   background-color: var(--primary-color);
+  height: 110px;
+  font-weight: bold;
+  color: white;
+  text-align: end;
+  padding-right: 10px;
+}
+
+#output-display {
+  font-size: 25px;
+}
+
+#input-display {
+  font-style: 15px;
+}
+
+.btn-danger {
+  padding: 6px !important;
+  border: solid !important;
+  border-color: darkred !important;
+  border-width: 1px !important;
+  box-shadow: 0px 2px rgb(1, 1, 1) !important;
+}
+
+.btn {
+  box-shadow: 0px 2px rgb(1, 1, 1) !important;
+}
+
+.btn-primary {
+  box-shadow: 0px 3px rgb(1, 1, 1) !important;
 }
 
 .btn:not(.btn-danger, #undo-btn, .btn-primary) {
